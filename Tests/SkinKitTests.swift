@@ -1,15 +1,15 @@
 //
-//  SkinTests.swift
-//  SkinTests
+//  SkinKitTests.swift
+//  SkinKitTests
 //
-//  Created by Jack on 3/20/17.
+//  Created by Jack on 4/2/17.
 //  Copyright © 2017 Jack. All rights reserved.
 //
 
 import XCTest
-@testable import Skin
+@testable import SkinKit
 
-class SkinTests: XCTestCase {
+class SkinKitTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

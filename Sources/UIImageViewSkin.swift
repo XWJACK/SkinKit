@@ -1,6 +1,6 @@
 //
 //  UIImageViewSkin.swift
-//  Skin
+//  SkinKit
 //
 //  Created by Jack on 3/20/17.
 //  Copyright © 2017 Jack. All rights reserved.

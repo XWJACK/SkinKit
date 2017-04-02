@@ -1,6 +1,6 @@
 //
 //  UIViewSkin.swift
-//  Skin
+//  SkinKit
 //
 //  Created by Jack on 3/20/17.
 //  Copyright © 2017 Jack. All rights reserved.
@@ -12,6 +12,9 @@ open class UIViewSkin<Sub: UIView>: UIKitSkin<Sub> {
 
     @discardableResult
     open func backgroundColor(_ value: UIColor) -> Self {
+        addMonitor {
+            self.retain?.backgroundColor = value
+        }
         return self
     }
     
@@ -29,4 +32,7 @@ open class UIViewSkin<Sub: UIView>: UIKitSkin<Sub> {
     open func isHidden(_ value: Bool) -> Self {
         return self
     }
+}
+extension UIView {
+    public var view_Skin: UIViewSkin<UIView> { return UIViewSkin(self) }
 }
