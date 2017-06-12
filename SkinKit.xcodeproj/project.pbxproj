@@ -13,7 +13,6 @@
 		04EB216C1E90C99900B6BE14 /* UIImageViewSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB21691E90C99900B6BE14 /* UIImageViewSkin.swift */; };
 		04EB216D1E90C99900B6BE14 /* UIKitSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB216A1E90C99900B6BE14 /* UIKitSkin.swift */; };
 		04EB216E1E90C99900B6BE14 /* UIViewSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB216B1E90C99900B6BE14 /* UIViewSkin.swift */; };
-		04EB21721E90C9A000B6BE14 /* SkinKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB21701E90C9A000B6BE14 /* SkinKitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 		04EB216A1E90C99900B6BE14 /* UIKitSkin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIKitSkin.swift; path = Sources/UIKitSkin.swift; sourceTree = SOURCE_ROOT; };
 		04EB216B1E90C99900B6BE14 /* UIViewSkin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewSkin.swift; path = Sources/UIViewSkin.swift; sourceTree = SOURCE_ROOT; };
 		04EB216F1E90C9A000B6BE14 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
-		04EB21701E90C9A000B6BE14 /* SkinKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkinKitTests.swift; path = Tests/SkinKitTests.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				04EB213F1E90C83E00B6BE14 /* SkinKit */,
-				04EB214A1E90C83F00B6BE14 /* SkinKitTests */,
+				04EB214A1E90C83F00B6BE14 /* Tests */,
 				04EB213E1E90C83E00B6BE14 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,12 +85,12 @@
 			path = SkinKit;
 			sourceTree = "<group>";
 		};
-		04EB214A1E90C83F00B6BE14 /* SkinKitTests */ = {
+		04EB214A1E90C83F00B6BE14 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				04EB216F1E90C9A000B6BE14 /* Info.plist */,
-				04EB21701E90C9A000B6BE14 /* SkinKitTests.swift */,
 			);
+			name = Tests;
 			path = SkinKitTests;
 			sourceTree = "<group>";
 		};
@@ -246,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EB21721E90C9A000B6BE14 /* SkinKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
