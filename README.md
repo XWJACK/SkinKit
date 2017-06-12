@@ -8,7 +8,7 @@
 
 ## Overview
 
-Easy way to using skin in project
+Easy way to use skin in project
 
 ## Installation
 
