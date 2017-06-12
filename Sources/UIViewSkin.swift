@@ -10,29 +10,22 @@ import UIKit
 
 open class UIViewSkin<Sub: UIView>: UIKitSkin<Sub> {
 
-    @discardableResult
-    open func backgroundColor(_ value: UIColor) -> Self {
+    open func backgroundColor(_ value: UIColor) {
         addMonitor {
             self.retain?.backgroundColor = value
         }
-        return self
     }
     
-    @discardableResult
-    open func alpha(_ value: CGFloat) -> Self {
-        return self
+    open func alpha(_ value: CGFloat) {
     }
     
-    @discardableResult
-    open func tintColor(_ value: UIColor) -> Self {
-        return self
+    open func tintColor(_ value: UIColor) {
     }
     
-    @discardableResult
-    open func isHidden(_ value: Bool) -> Self {
-        return self
+    open func isHidden(_ value: Bool) {
     }
 }
+
 extension UIView {
-    public var view_Skin: UIViewSkin<UIView> { return UIViewSkin(self) }
+    public var skin: UIKitSkin<UIView> { return UIViewSkin(self) }
 }

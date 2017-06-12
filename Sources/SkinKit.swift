@@ -6,12 +6,4 @@
 //  Copyright © 2017 Jack. All rights reserved.
 //
 
-import Foundation
-
-protocol SkinParseable {
-    
-}
-
-protocol Skinable {
-    init(resources: SkinParseable)
-}
+import UIKit

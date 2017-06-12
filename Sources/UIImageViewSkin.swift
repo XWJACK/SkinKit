@@ -20,7 +20,3 @@ open class UIImageViewSkin<Sub: UIImageView>: UIViewSkin<Sub> {
         return self
     }
 }
-
-extension UIImageView {
-    public var imageView_Skin: UIImageViewSkin<UIImageView> { return UIImageViewSkin(self) }
-}
