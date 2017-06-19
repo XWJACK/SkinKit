@@ -1,5 +1,5 @@
 //
-//  SkinKit.h
+//  Package.swift
 //
 //  Copyright (c) 2017 Jack
 //
@@ -21,7 +21,10 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import <UIKit/UIKit.h>
+import PackageDescription
 
-FOUNDATION_EXPORT double SkinKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char SkinKitVersionString[];
+let package = Package(
+    name: "SkinKit",
+    dependencies : [],
+    exclude: ["Diagram"]
+)
