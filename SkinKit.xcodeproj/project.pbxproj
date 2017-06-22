@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04483ADB1EFBC83B00B4A30D /* SkinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04483ADA1EFBC83B00B4A30D /* SkinManager.swift */; };
 		04EB21471E90C83F00B6BE14 /* SkinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB213D1E90C83E00B6BE14 /* SkinKit.framework */; };
 		04EB21661E90C97E00B6BE14 /* SkinKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EB21651E90C97E00B6BE14 /* SkinKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04EB21681E90C98B00B6BE14 /* SkinKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB21671E90C98B00B6BE14 /* SkinKit.swift */; };
-		04EB216C1E90C99900B6BE14 /* UIImageViewSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB21691E90C99900B6BE14 /* UIImageViewSkin.swift */; };
-		04EB216D1E90C99900B6BE14 /* UIKitSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB216A1E90C99900B6BE14 /* UIKitSkin.swift */; };
-		04EB216E1E90C99900B6BE14 /* UIViewSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB216B1E90C99900B6BE14 /* UIViewSkin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,14 +24,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04483ADA1EFBC83B00B4A30D /* SkinManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkinManager.swift; path = Sources/SkinManager.swift; sourceTree = SOURCE_ROOT; };
 		04EB213D1E90C83E00B6BE14 /* SkinKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EB21461E90C83F00B6BE14 /* SkinKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EB21641E90C96F00B6BE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
 		04EB21651E90C97E00B6BE14 /* SkinKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkinKit.h; path = Sources/SkinKit.h; sourceTree = SOURCE_ROOT; };
 		04EB21671E90C98B00B6BE14 /* SkinKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkinKit.swift; path = Sources/SkinKit.swift; sourceTree = SOURCE_ROOT; };
-		04EB21691E90C99900B6BE14 /* UIImageViewSkin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageViewSkin.swift; path = Sources/UIImageViewSkin.swift; sourceTree = SOURCE_ROOT; };
-		04EB216A1E90C99900B6BE14 /* UIKitSkin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIKitSkin.swift; path = Sources/UIKitSkin.swift; sourceTree = SOURCE_ROOT; };
-		04EB216B1E90C99900B6BE14 /* UIViewSkin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewSkin.swift; path = Sources/UIViewSkin.swift; sourceTree = SOURCE_ROOT; };
 		04EB216F1E90C9A000B6BE14 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -106,6 +102,7 @@
 		04EB21621E90C8C200B6BE14 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				04483ADA1EFBC83B00B4A30D /* SkinManager.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -113,9 +110,6 @@
 		04EB21631E90C8CE00B6BE14 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				04EB21691E90C99900B6BE14 /* UIImageViewSkin.swift */,
-				04EB216A1E90C99900B6BE14 /* UIKitSkin.swift */,
-				04EB216B1E90C99900B6BE14 /* UIViewSkin.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -234,9 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EB21681E90C98B00B6BE14 /* SkinKit.swift in Sources */,
-				04EB216E1E90C99900B6BE14 /* UIViewSkin.swift in Sources */,
-				04EB216C1E90C99900B6BE14 /* UIImageViewSkin.swift in Sources */,
-				04EB216D1E90C99900B6BE14 /* UIKitSkin.swift in Sources */,
+				04483ADB1EFBC83B00B4A30D /* SkinManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

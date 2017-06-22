@@ -1,5 +1,5 @@
 //
-//  UIKitSkin.swift
+//  SkinManager.swift
 //
 //  Copyright (c) 2017 Jack
 //
@@ -21,4 +21,17 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-import UIKit
+import Foundation
+
+open class SkinManager {
+    
+    open let `default`: SkinManager = SkinManager()
+    
+    open func updateSkin() {
+        
+    }
+    
+    open func updateSkins(_ skins: [String: Skin]) {
+        
+    }
+}

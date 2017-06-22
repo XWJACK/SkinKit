@@ -22,3 +22,37 @@
 //  SOFTWARE.
 
 import UIKit
+
+public protocol Skinable {
+    associatedtype NameSpaceType
+    var skin: NameSpaceType { get }
+}
+
+public extension Skinable {
+    var skin: NameSpace<Self> { return NameSpace(self) }
+}
+
+/// Name space
+public struct NameSpace<Value> {
+    let value: Value
+    init(_ value: Value) {
+        self.value = value
+    }
+    
+    public func registerSkin<T: Skin>(_ identifier: String, _ closure: (Value, T) -> ()) {
+        
+    }
+}
+
+extension NSObject: Skinable {}
+
+
+
+public protocol Skin {
+    
+}
+
+public protocol SkinConversion {
+    associatedtype T: Skin
+    func conversion() -> T
+}
