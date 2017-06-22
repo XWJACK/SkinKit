@@ -22,16 +22,3 @@
 //  SOFTWARE.
 
 import UIKit
-
-open class UIImageViewSkin<Sub: UIImageView>: UIViewSkin<Sub> {
-    
-    @discardableResult
-    open func image(_ value: UIImage) -> Self {
-        return self
-    }
-    
-    @discardableResult
-    open func highlightedImage(_ value: UIImage) -> Self {
-        return self
-    }
-}

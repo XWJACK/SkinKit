@@ -22,16 +22,3 @@
 //  SOFTWARE.
 
 import UIKit
-
-open class UIKitSkin<T: AnyObject> {
-    
-    weak var retain: T?
-    
-    init(_ value: T) {
-        retain = value
-    }
-    
-    public func addMonitor(_ block: @escaping () -> ()) {
-        
-    }
-}
